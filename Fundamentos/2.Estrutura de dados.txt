@@ -1,0 +1,22 @@
+O que são estruturas de dados?
+Visa organizar e administrar seus dados;
+
+Ex: 3 não é uma estrutura de dados, porém, o conjunto do numeros inteiros é;
+    Lista de aprovados, fila do banco
+
+Logica FIFO = First in First Out - fila do banco
+Lógica LIFO = Last in First Out - pilha de livros
+
+Estrutra de Árvore = Músicas -> Rap -> mp3
+
+Estrutura de dados básicos = INT / REAL / LETRA / BOOL
+
+- Variáveis e contantes = armarzenar dados(rotular um valor)
+Constante = valor não pode ser alterado
+
+-------Operações-----------
+Lógicas: True ou False (diagrama/sequencia de passos)
+Relacional: Comparação entre dados;
+Aritmética
+Atribuição: atribuir e rotular dados;
+

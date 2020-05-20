@@ -1,0 +1,76 @@
+||Algoritmo||
+
+Sequência de passos finitos e organizados que, quando executados resolvem um determinado problema. (Podem haver repetições ou não em sua estrutura)
+É possível tomar decisões em sua estrutura ( Passo A || Passo B mas nunca Passo A && Passo B);
+
+Exemplo:
+Algoritmo vestir
+Cueca -> Meias -> Sapato -> Calça -> Camisa
+Algoritmo gera resultado correto, porém o processamento não é otimizado (Sapato -> Calça)
+Moral: A ordem dos passos é importante
+
+-----------------Visão Geral do Algoritmo--------------
+
+Saída: Dados processados - informação
+        ^
+        |
+Processamento: Algoritmo que vai interpretar os dados
+        ^
+        |
+Entradas: Dados que vão alimentar o algoritmo.
+Dados: conhecimento bruto a cerca de alguma entidade
+
+--------Algoritmo vs Linguagem---------------
+Linguagem de alto nivel = nivel de escrita mais próximo do ser humano
+Linguagem de baixo nivel = nivel de escrita mais próximo da máquina
+
+-----------Algoritmos Computacionais-------------------
+São passos a serem seguidos por um módulo processador e seus
+respectivos usuários que, quando executados na ordem correta,
+conseguem realizar determinada tarefa, ou seja, rotinas executadas por um processador
+
+Modulo Processador = tudo que pode ser programado
+Usuários = usuários que estão usufruindo do sistema
+Tarefa = Resolver um problema
+
+Lógica de programação -> Escrever em linguagem de programação -> Sistema Completo
+
+----------Lógica de Programação---------------
+Criada através de:
+Fluxogramas
+Diagram de Nassi Shneiderman
+Portugol = mais utilizado hoje em dia, lógica de programa em sua linguagem nativa. Não é linguagem de programação
+
+---------------Variáveis-------------
+Espaços na memória que irão guardar valores
+Não se pode aplicar dois valores simultaneamente para uma variável
+
+Identificador: identificar o tipo de variável
+1. Deve começar com uma letra
+2. Os próximos podem ser letras ou números
+3. Não pode utilizar nenhum símbolo, exceto _
+4. Não pode conter espaços em branco
+5. Não pode conter letras com acentos
+6. Não pode ser uma palavra reservada(var,let,etc)
+Exe:
+msg: caratecter
+Espaço foi alocado na memória com var msg do tipo caracter
+(msg: identificador, caracter: tipo)
+
+Atribuição: msg <- "Hello Word" (Atribui "cadeia de caractere"para a var msg)
+"Hello Word" será alocado no espaço da memória da qual msg tinha reservada
+
+---------Ordens de precedencia de comandos aritméticos---------------
+() Parêntenses
+^  Exponenciação
+*/ Multiplicação e Divisão
++- Adição e Subtração
+
+
+
+
+
+
+
+
+
