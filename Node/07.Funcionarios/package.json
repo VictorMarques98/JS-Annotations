@@ -1,0 +1,20 @@
+{
+  "name": "07.Funcionarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "//": [
+    "Para criar o Package Json, NPM INIT -Y",
+    "Adicionar dependencias: npm i --save Nome da Library",
+    "Adicionar devdependencias: npm i --save-dev Nome da Library"
+  ],
+  "devDependencies": {
+    "axios": "^0.19.2"
+  }
+}

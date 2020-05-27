@@ -1,0 +1,2 @@
+#Coisas que eu quero que o git ignore na hora do push
+node_modules
