@@ -2,8 +2,10 @@
   "name": "07.Funcionarios",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "7.1Funcionarios.js",
   "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,8 +13,14 @@
   "license": "ISC",
   "//": [
     "Para criar o Package Json, NPM INIT -Y",
+    "Instalar todas as dependencias NPM I",
     "Adicionar dependencias: npm i --save Nome da Library",
-    "Adicionar devdependencias: npm i --save-dev Nome da Library"
+    "Adicionar devdependencias: npm i --save-dev Nome da Library",
+    "main = arquivo principal",
+    "nodemon vai procurar o arquivo setado em main para verificar qual ele vai executar",
+    "Uma vez dado o NPM I, para iniciar seu projeto, basta dar o comando: NPM START",
+    "DEV não é um comando padrão do node, por isso, para executá-lo é necessário fzr: npm run DEV ",
+    "Para achar os scripts padrões do NPM,basta ir no site deles"
   ],
   "devDependencies": {
     "axios": "^0.19.2"

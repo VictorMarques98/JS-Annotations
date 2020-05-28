@@ -1,0 +1,22 @@
+{
+  "name": "19.Projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2",
+    "body-parser": "1.18.2"
+  },
+  "//": [
+    "1 - Em main, alterei de index.js para src/server.js ",
+    "2 - Criei o script START com o nodemon que vai disparar o main(server.js)",
+    "3 - Instalar o body-parser: vai fazer um PARSE da requisição"
+  ]
+}
