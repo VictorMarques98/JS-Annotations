@@ -23,21 +23,21 @@ So, this repository has a objective just sendo some files about my current studi
 <table>
 <thead>
 <tr>
-<th><a href="www.google.com,br">Algoritmo</a></th>
-<th>ASAS</th>
+<th><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt)">Algorithm</a></th>
+<th><a href="%5B%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/02.Estrutura%20de%20dados.txt%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/02.Estrutura%20de%20dados.txt)%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt)">Data Structure</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>ASAS</strong></td>
-<td>ASAS</td>
+<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js)">Corde Organization</a></strong></td>
+<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js)">Comments</a></strong></td>
+</tr>
+<tr>
+<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/05.Variaveis%26Constantes.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/05.Variaveis%26Constantes.js)(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js)">Variables &amp; Constants</a></strong></td>
+<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/06.TipagemFraca.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/06.TipagemFraca.js)(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js)">Format of Variables</a></strong></td>
 </tr>
 </tbody>
-</table><p>Algorithm<br><br>
-Algorithm<br><br>
-Code Organization<br><br>
-Comments<br><br>
-Variables &amp; Constants<br><br>
+</table><p>Variables &amp; Constants<br><br>
 Format of Variables<br><br>
 Number<br><br>
 Math<br><br>
