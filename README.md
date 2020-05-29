@@ -1,8 +1,38 @@
-<p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
-</p>
+![Js-logo](js.png)
+
+Js Annotations
+==============
+
+#### This is my first repository on GitHub, so I decided to put all my notes about my study of Javascript.
+
+* * * * *
+
+Topics
+------
+
+1.  Javascript Basics
+2.  Data Structure
+3.  Function
+4.  Object
+5.  Node
+6.  Loading...
+
+\
+
+Javascript Basics
+-----------------
+
+\
+ [Algorithm]()\
+
+* * * * *
+
+[Introduction to Data Structure]()
+
+* * * * *
+
+[Code Organization]()\
+
+* * * * *
+
+[Comments]()
