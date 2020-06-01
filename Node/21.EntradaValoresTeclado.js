@@ -11,7 +11,8 @@ if(anonimo)
 else
 {   //entrar com dados
     process.stdout.write('Informe o seu nome ')
-    process.stdin.on('data', data => {
+    process.stdin.on('data', data =>
+    {
         const nome = data.toString().replace('\n',"")
 
         process.stdout.write(`Fala ${nome}`)
