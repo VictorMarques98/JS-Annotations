@@ -1,0 +1,51 @@
+header
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    font-family: Mandatory,sans-serif;
+    font-weight: bold;
+    background-color: #343434;
+    color: white;
+    padding: 5px;
+    border-bottom: solid 8px #3fdaff;
+    transition: background-color 1s;
+}
+
+header:hover
+{
+    background-color: white;
+    color:#212121;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:1.2em;
+    font-family: Mandatory,sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a{
+    padding: 0px 5px;
+    color:black;
+}
+
+section
+{
+    border:solid 2px grey;
+    padding:30px;
+    border-radius: 10px;
+}
+
+footer
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

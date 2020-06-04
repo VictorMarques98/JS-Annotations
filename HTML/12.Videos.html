@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Videos</title>
+</head>
+<body>
+<!--controls = adiciona controle ao video-->
+<!--autoplay = nome ja diz tudo-->
+<!--controlsList='nodownload' = retira o download do video-->
+<!--Quando quero trabalhar com propriedades e atributos, é interessante não usar classe e nem id, e sim propriedade(wm-player)-->
+
+<video id="meuVideo" width="800" height="450" controls autoplay controlsList="nodownload">
+    <source src="http://files.cod3r.com.br/curso-web/video.mp4" type="video/mp4">
+</video>
+<div wm-progresso="meuVideo" class="progresso">
+    <div></div>
+</div>
+<button wm-play="meuVideo">Iniciar</button>
+<button wm-pause="meuVideo">Pausar</button>
+<style>
+
+    .progresso
+    {
+        display:flex;
+        width: 800px;
+        border:solid 2px black;
+        height: 30px;
+    }
+    .progresso > div
+    {
+        background-color: #3fdaff;
+    }
+
+</style>
+<script>
+    function config(id)
+    {
+        const video = document.getElementById(id)
+        video.oncontextmenu = () => false //retira menu de contexto(botão direito)
+
+        document.querySelector(`[wm-play=${id}]`).onclick = e => video.play()
+        document.querySelector(`[wm-pause=${id}]`).onclick = e => video.pause()
+
+        setInterval(() => {
+            const percentual = (video.currentTime / video.duration) * 100
+            const valorDiv = document.querySelector(`[wm-progresso=${id}] > div`)
+            valorDiv.style.width = `${percentual}%`
+            valorDiv.innerHTML = `${percentual.toFixed(1)}%`
+
+        },500)
+    }
+    config('meuVideo')
+</script>
+</body>
+</html>

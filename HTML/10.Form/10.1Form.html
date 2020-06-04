@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <style>
+        input,textarea
+        {
+            display:block;
+        }
+        input[type=radio],
+        input[type=checkbox]
+        {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<!--    form action tem a função de submeter os dados para o servidor-->
+    <form action="http://localhost:3003/usuarios" method="POST">
+        <input type="hidden" name="id" value="3">
+        <input type="text" name="nome do input">
+        <input type="password" name="senha">
+        <textarea name="textoarea" cols="25" rows="5"></textarea>
+        <div>
+            <input type="radio" name="admin" value="admin">Admin
+            <input type="radio" name="admin" value="regular">regular
+        </div>
+        <div>
+            <input type="checkbox" name="ativo">Ativo
+        </div>
+        <select name="estado">
+            <option value="ac">Acre</option>
+            <option value="PR">Paraná</option>
+        </select>
+        <button formaction="http://localhost:3003/usuarios">Incluir</button>
+        <button formaction="http://localhost:3003/usuarios/3">Alterar</button>
+    </form>
+</body>
+</html>

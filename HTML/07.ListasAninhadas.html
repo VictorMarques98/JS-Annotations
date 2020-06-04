@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Listas Aninhadas</title>
+    <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+
+</head>
+<body>
+    <h1>Projeto</h1>
+    <ul class="tree">
+        <li>
+            <span wm-folder>Backend</span>
+            <ul id="backchild">
+                <li>
+                    <span wm-folder>App</span>
+                    <ul>
+                        <li>Produto</li>
+                        <li>Usuário</li>
+                        <li>Venda</li>
+                    </ul>
+                </li>
+                <li>
+                    <span wm-folder>Config</span>
+                    <ul>
+                        <li>Banco</li>
+                        <li>Rotas</li>
+                        <li>Servidor</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span wm-folder>Frontend</span>
+            <ul>
+                <li>
+                    public
+                    <ul>
+                        <li>App</li>
+                        <li>Index</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+<script>
+    document.querySelectorAll('[wm-folder]').forEach(folder => {
+        folder.onclick = function()
+        {
+            const ul = folder.nextElementSibling
+            const d = ul.style.display
+            ul.style.display = d === 'none' ? 'block' : 'none'
+        }
+    })
+</script>
+</html>

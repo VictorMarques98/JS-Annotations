@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Introducao CSS</title>
+        <style>
+            h1,.fundovermelho
+            {
+                background-color:#212121;
+                color:white;
+                text-align: center;
+                transition: font-weight 1.0s;
+            }
+
+            h1:hover,
+            .fundovermelho:hover
+            {
+                background-color: #61ff59;
+                font-weight: inherit;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <span id="textoPrincipal" style="font-family: Poppins">Texto1</span><br>
+        <span class="fundovermelho negrito">Texto2</span><br>
+        <span class="fundovermelho">Texto3</span>
+    </body>
+</html>

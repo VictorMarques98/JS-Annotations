@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>Link</title>
+</head>
+<body>
+
+<!--URL Absoluta-->
+<a id="início" href="http://www.google.com.br">Google Mesma Aba</a><br>
+
+<!--Abrir nova aba sem sair da pagina principal-->
+<a href="http://www.google.com.br" target="blank">Google Outra Aba</a><br>
+
+<!--URL Relativa-->
+<a href="index.html">Voltar 1 (Acessar index da pasta atual)</a><br>
+<a href="/index.html">Voltar 2 (Acessar o index da raiz da sua app)</a><br>
+<a href="../index.html">Voltar 3 (Sair de uma pasta e ir pra index)</a><br>
+
+<!--Enviar email-->
+<a href="mailto:email@empresa.com.br">Entre em contato</a><br>
+
+<!--Link para levar até parte da pagina-->
+<div id="noticia" style="position: absolute;top:2000px">
+    <h1 style="text-align: center">O link te envio até aqui</h1>
+    <a href="#início">Voltar início</a>
+</div>
+
+<a href="#noticia">Ir para notícia</a>
+
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicios HTML</title>
+    <link rel="stylesheet" href="04.1.ExerciciosHtml/css.css">
+</head>
+<body>
+    <header>
+        Exercícios HTML
+    </header>
+    <nav>
+        <a href="05.Texto.html">Texto</a>
+        <a href="06.Listas.html">Listas</a>
+        <a href="07.ListasAninhadas.html">Lista Aninhada</a>
+        <a href="08.links.html">Links</a>
+        <a href="09.Tabelas.html">Tabelas</a>
+        <a href="10.Form/10.1Form.html">Formulário & Node</a>
+        <a href="11.Imagens.html">Imagens</a>
+        <a href="12.Videos.html">Videos</a>
+        <a href="13.TagsNVisuais.html">Tags não visuais</a>
+    </nav>
+    <section id="conteudo">
+    </section>
+    <footer>
+        <br>
+        Curso Web Moderno
+    </footer>
+    <script>
+        //Fazer uma requisição AJAX
+        document.querySelectorAll('a').forEach(link =>
+        {
+            const conteudo = document.getElementById('conteudo')
+            link.onclick = function (e)
+            {
+                e.preventDefault()
+                fetch(link.href) //da o link da pagina
+                .then(resp => resp.text())//resp.text() -> pegar conteudo da pag que fiz a requisição e retorna outra promise
+                .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>
