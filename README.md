@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" alt="javascript" height="350px">
 <h1 id="js-annotations">JS Annotations</h1>
 <p>Hey there, this is my first repository in GitHub. I have some projects in building, but they still has a lot of thing to replace to send a repository.
