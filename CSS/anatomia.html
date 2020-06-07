@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anatomia CSS</title>
+    <style>
+        .selector
+        {
+            color: #ffffff;
+            font-size:30px;
+            text-align: center;
+
+            /*Multiplos valores*/
+            border:solid 5px blue; /*sorthand property*/
+            font-family: Poppins,monospace; /*alternancia de valores, se um n der certo, vai pra outro*/
+
+            /*funções*/
+            width: calc(100% - 100px); /*tamanho 100% da tela - 100px*/
+
+            background-color: rgb(77, 174, 190);
+        }
+
+        /*Usando uma PSEUDO-classe*/
+        .selector:hover
+        {
+            background-color: red;
+        }
+
+        /*Usando um PSEUDO-elemento (tem que usar os ::)*/
+        .selector::first-letter
+        {
+            color:black;
+            font-weight: bold;
+        }
+
+        /*padrão de nomenclatura
+        dash-case ou camelCase
+         */
+    </style>
+</head>
+
+<body>
+    <div class="selector">Conteúdo</div>
+</body>
+
+</html>

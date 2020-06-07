@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Herança</title>
+    <style>
+
+        /*body é o elemento mãe,font foi transmitido para h1 e div,
+        porém borda não,pois ela n é transmissivel por herança*/
+        body
+        {
+            font-family: monospace;
+            font-size:40px;
+            border:solid 3px black;
+            padding:50px;
+        }
+
+        /*Modo para herdar atributo de div pai = inherit*/
+        div
+        {
+            border:inherit;
+            padding: inherit;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Herança</h1>
+    <div>Estou herdando</div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://specificity.keegan.st/
+        1.inline
+        2.ids
+        3.classes,atributos,pseudo-classe
+        4.Elementos e pseudo elementos
+        */
+
+        body {font-size:40px}
+
+        div{background-color: blue;color:white}
+
+        div[wm-cor] {background-color: orange}
+        /*Nesse caso, as duas divs tem a mesma especificidade, quem ganha é a que vem por ultimo*/
+        div:hover { background-color: mediumspringgreen}
+
+        div.estilo { background-color: green}
+
+        #unico1,#unico2
+        {
+            background-color: #f50a31;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="unico1" class="estilo" style="background-color: darkred">
+        #unico1 vs .estilo vs inline
+    </div>
+    <div id="unico2" class="estilo">#unico2 vs .estilo</div>
+    <div class="estilo" wm-cor>.estilo vs wm-cor</div>
+    <div wm-cor>wm-cor vs hover</div>
+    <div class="estilo">.estilo</div>
+    <div>elemento</div>
+</body>
+
+</html>

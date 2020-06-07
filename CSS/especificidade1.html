@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity*/
+        p
+        {
+            background-color: #f50a31;
+        }
+
+        /*observação é mais especifico que p*/
+        .observacao
+        {
+            background-color: #3fdaff;
+        }
+
+        /*Mais especifico que classe e tag sozinhos*/
+        p.observacao
+        {
+            background-color: #61ff59;
+            background: linear-gradient(to right,red,yellow);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <p class='observacao'>Olha essa observação!!!!</p>
+    <p>
+        Em linhas gerais...<br>
+        1. Regra com !important<br>
+        2. Seletores mais especificos <br>
+        3. Ordem de processamento (ultima processada)
+    </p>
+</body>
+
+</html>

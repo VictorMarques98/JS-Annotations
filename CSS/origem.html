@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Origem CSS: Externo, Interno e Inline</title>
+    <style>
+
+        h3
+        {
+            color:green;
+        }
+        /*A ordem de preferencia é definido pelo qual atributo vem por ultimo*/
+        /*  Porém,inline tem preferencia maior*/
+    </style>
+    <link rel="stylesheet" href="external.css">
+</head>
+
+<body>
+    <h1>Externo</h1>
+    <h2 style="font-family: Poppins,monospace">Inline</h2>
+    <h3>Interno</h3>
+</body>
+
+</html>

@@ -1,11 +1,6 @@
----
-
-
----
-
-<p><img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" alt="enter image description here"></p>
+<img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" alt="javascript" height="350px">
 <h1 id="js-annotations">JS Annotations</h1>
-<p>Hey there, this is my first repository in GitHub. I have some projects in building, but they still has a lot of thing to replace to send a repository.<br>
+<p>Hey there, this is my first repository in GitHub. I have some projects in building, but they still has a lot of thing to replace to send a repository.
 So, this repository has a objective just sendo some files about my current studies of Javascript.</p><hr><p></p>
 <h3 id="topics">Topics</h3>
 <p>These topics are constantly uploaded. because study never end ;)</p>
@@ -19,41 +14,52 @@ So, this repository has a objective just sendo some files about my current studi
 </ol>
  <hr>
 <h3 id="javascript-basics">Javascript Basics</h3>
-
+<br>
 <table>
 <thead>
 <tr>
-<th><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt)">Algorithm</a></th>
-<th><a href="%5B%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/02.Estrutura%20de%20dados.txt%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/02.Estrutura%20de%20dados.txt)%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/01.Algoritmo.txt)">Data Structure</a></th>
+    <td><strong><a>Algorithm</a></strong></td>
+    <td><strong><a>Data Structure</a></strong></td>
+    <td><strong><a>Code Organization</a></strong></td>
+    <td><strong><a>Comments</a></strong></td>
+    <td><strong><a>Constants&Variables</a></strong></td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js)">Corde Organization</a></strong></td>
-<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js)">Comments</a></strong></td>
+    <td><strong><a>Methods Variables</a></strong></td>
+    <td><strong><a>Numbers</a></strong></td>
+    <td><strong><a>Math</a></strong></td>
+    <td><strong><a>String</a></strong></td>
+    <td><strong><a>Template String</a></strong></td>
 </tr>
 <tr>
-<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/05.Variaveis%26Constantes.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/05.Variaveis%26Constantes.js)(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/03.Organiza%C3%A7%C3%A3oCod.js)">Variables &amp; Constants</a></strong></td>
-<td><strong><a href="%5Bhttps://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/06.TipagemFraca.js%5D(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/06.TipagemFraca.js)(https://github.com/VictorMarques98/JS-Annotations/blob/master/Fundamentos/04.Coment%C3%A1rios.js)">Format of Variables</a></strong></td>
+    <td><strong><a>Boolean</a></strong></td>
+    <td><strong><a>Array Intro</a></strong></td>
+    <td><strong><a>Object Intro</a></strong></td>
+    <td><strong><a>References</a></strong></td>
+    <td><strong><a>Null&Undefined</a></strong></td>
+</tr>
+<tr>
+    <td><strong><a>Function in JS</a></strong></td>
+    <td><strong><a>Variables Var</a></strong></td>
+    <td><strong><a>Variables Let</a></strong></td>
+    <td><strong><a>Var&Let&Loop</a></strong></td>
+    <td><strong><a>Hoisting</a></strong></td>
+</tr>
+<tr>
+    <td><strong><a>ObjectVsFunction</a></strong></td>
+    <td><strong><a>Name/value pair</a></strong></td>
+    <td><strong><a>Dot in JS</a></strong></td>
+    <td><strong><a>Assignment</a></strong></td>
+    <td><strong><a>Destructing</a></strong></td>
+</tr>
+<tr>
+    <td><strong><a>Basic Operations</a></strong></td>
+    <td><strong><a>Basic Operations</a></strong></td>
+    <td><strong><a>TryCatch</a></strong></td>
 </tr>
 </tbody>
-</table><p>Variables &amp; Constants<br><br>
-Format of Variables<br><br>
-Number<br><br>
-Math<br><br>
-String<br><br>
-Template String<br><br>
-Booleans<br><br>
-Introduction to Array<br><br>
-Object<br><br>
-References<br><br>
-Null &amp; Undefined<br><br>
-Introduction to Function<br><br>
-Var Format<br><br>
-Var Format II<br><br>
-Let Format<br><br>
-Loop<br><br>
-Hoisting<br><br>
-Var Format<br><br>
-Var Format II<br></p>
+</table>
+<hr>
 
