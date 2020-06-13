@@ -4,9 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Flexbox #01</title>
-    <link rel="stylesheet" href="css/tag.css">
+    <link rel="stylesheet" href="tag.css">
     <style>
-        /* ... */
+        .big
+        {
+            font-size:1.5em;
+        }
+
+        .flex-container
+        {
+            display: flex; /*flex direction por padrão vem row*/
+            flex-direction: row;
+            /*flex-direction: column-reverse; !*reverter a ordem dos elementos, primeiro vira ultimo*!*/
+            width: 100%; /*Overflow, e para isso, pode-se qubrar a linha*/
+            flex-wrap: wrap; /*quebra linha*/
+            /*flex-flow: row wrap; !*flex-direction + flex wrap*!*/
+            justify-content: space-around; /*espaço igualmente divido entre os lados dos filhos*/
+            align-items: baseline; /*alinha pela linha base*/
+            align-content:flex-start; /*alinhamento quando se tem mais de uma linha*/
+        }
     </style>
 </head>
 

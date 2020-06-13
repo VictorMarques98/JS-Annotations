@@ -4,9 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Flexbox #03</title>
-    <link rel="stylesheet" href="css/tag.css">
+    <link rel="stylesheet" href="tag.css">
     <style>
-        /* ... */
+
+        .flex-container
+        {
+            display:flex;
+            /*width: 100px;*/
+        }
+
+        .flex-container div
+        {
+            flex-basis: 100px; /*Funciona no setindp do main axis,se row da 100px de width,se column,100px de height*/
+            width:200px;/*flex-basis é mais forte*/
+        }
+
+        .flex-container div:nth-child(3)
+        {
+            /*propriedades shorcurt*/
+            /*grow shrink basis*/
+            flex: 3 6 200px; /*só funciona se for menor que largura da pai*/
+        }
+
     </style>
 </head>
 

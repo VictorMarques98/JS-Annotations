@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Altura e Largura</title>
     <style>
+
         body {
             font-size: 40px;
             background-color: coral;
@@ -17,12 +18,23 @@
         span {
             background-color: dodgerblue;
         }
+
+        span,div
+        {
+            width: 50%; /*Funciona na larg, pois por padrão body ocupa 100% da largura*/
+            height: 50%; /*Unidades relavativas não são sertadas na div, pois body não tem height definido*/
+            height: 250px; /*Unidades absolutas fazem com que o body aumente de tamanho*/
+            /*Para setar height com tamanho percentural:
+            1 - Body = Height:100%;
+            2 - Html = Hright:100%
+             */
+            display:inline-block; /*Não acontece nada, pois tem espaço branco entre tags*/
+        }
     </style>
 </head>
 
 <body>
-    <div>Título</div>
-    <span>Subtítulo</span>
+    <div>Título</div><span>Subtítulo</span>
 </body>
 
 </html>

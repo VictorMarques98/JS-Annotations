@@ -5,7 +5,22 @@
     <meta charset="UTF-8">
     <title>Box Model</title>
     <style>
-        /* ... */
+        body
+        {
+            font-size:40px;
+            margin:0;
+        }
+
+        .c1{background-color: #f50a31}
+        .c2{background-color: #61ff59}
+        .c3{background-color: #3fdaff}
+
+        div
+        {
+            float:left; /*perde o conceito de block, e os 3 passam a dividir a mesma linha*/
+            padding:10px 5px 10px 8px; /*shotcurt do padding(sentido horário)*/
+            margin: 10px 20px 30px 40px; /*shotcurt igual ao padding*/
+        }
     </style>
 </head>
 

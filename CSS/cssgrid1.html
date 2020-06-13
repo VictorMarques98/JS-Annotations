@@ -22,6 +22,27 @@
             border: solid 5px dodgerblue;
             background: #fff;
         }
+
+        body
+        {
+            display: grid;
+
+            /*definir colunas/rows do meu template*/
+
+            grid-template-columns: 50% 50%; /*forma duas colunas*/
+            /*caso haja repetição*/
+            grid-template-columns: repeat(4,5% 5%); /* 4 x 2 = 8 colunas de 5% tamanhp cada*/
+            grid-template-columns: repeat(11,100px)200px; /*11 repetições de 100px e uma de 200px*/
+            grid-template-columns: 1fr 1fr 1fr; /*fragmentos de divisão com peso*/
+        }
+
+        .d8
+        {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            /*ou*/
+            grid-column-end: span 2; /*pule 2 colunas*/
+        }
     </style>
 </head>
 

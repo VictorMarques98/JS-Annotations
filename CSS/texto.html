@@ -6,7 +6,7 @@
     <title>Texto</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <style>
-        /* ... */
+
         * {
             margin: 0;
         }
@@ -15,6 +15,33 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+
+        p
+        {
+            /*valores padrões*/
+            font-size:1em;
+            font-size: 100%;
+            font-size: 16px;
+            font-size: 12pt;
+
+            /*unidades absolutas*/
+            font-size: 100px;
+
+            /*unidades relativas*/
+            font-size: 2em; /*pega a font de referencia mais próxima
+            /*Com unidade EM, considera-se o valor com base no browser padrão.Porém, caso
+            algum elemento pai da tag p defina font-size, ela pegara o valor do elemento pai
+             */
+            font-size:2.2rem;/*pega ref do html*/
+
+            font-style:italic;
+            text-transform: uppercase;
+            text-decoration: overline underline; /*remover link de tag a*/
+            word-spacing: 10px;
+            letter-spacing: 10px;
+            line-height: 2.5em;/*altura da linha*/
+
         }
     </style>
 </head>

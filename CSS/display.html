@@ -5,7 +5,38 @@
     <meta charset="UTF-8">
     <title>Display</title>
     <style>
-        /* ... */
+
+       body
+       {
+           font-size:40px;
+           color:black;
+           background-color: tomato;
+       }
+
+        ul {padding:0}
+        div {background-color: #3fdaff}
+        span {background-color: grey}
+        li {background-color: #e2a000}
+
+        div,span,li
+        {
+            /*propriedades que span não atende:*/
+            width: 50%;
+            width: 200px;
+            height: 80px;
+
+            /*propriedades que ele atende*/
+            padding: 30px;
+            text-align: center;
+
+            /*Propriedade display*/
+            display: block; /*div ja vem por padrão block, e span inline. Block = cada elemento tem sua própria linha*/
+            display:inline; /*Inline = todos na mesma linha*/
+            /*Display inline não permite modificar:
+            1 - Width;
+            2 - Height*/
+            display:inline-block; /*Inline-block = funciona como inline, porém considera Width e Heigth*/
+        }
     </style>
 </head>
 

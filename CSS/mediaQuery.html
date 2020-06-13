@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <title>Media Query</title>
     <style>
-        div {
+        div
+        {
             font-size: 40px;
             margin: 20px;
             padding: 20px;
             background-color: coral;
             border: solid 5px;
             display: none;
+        }
+
+        @media(max-width: 600px)
+        {   /*Se a largura do meu componente for no max 600 px,aplique isso*/
+            .muito-pequeno {display:block}
+        }
+
+        @media(max-width: 1000px),(orientation: portrait) /*vai aplicar se max-width OU orientation forem satisfeitos*/
+        {
+            .pequeno-retrato{display:block}
+        }
+
+        @media(min-width: 500px) and (max-width: 1000px)
+        {   /*Deve ser maior ou igual a 500px de altura E menor ou igual a 1000px de largura*/
+            .intervalor {display:block}
         }
     </style>
 </head>

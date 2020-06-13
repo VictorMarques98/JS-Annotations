@@ -5,7 +5,30 @@
     <meta charset="UTF-8">
     <title>Unidades #01</title>
     <style>
-        /* ... */
+        /*unidades absolutas*/
+        .unidades-absolutas
+        {
+            position: absolute; /*position deve ser igual a absolute para left e top serem ativos*/
+            font-size: 40px;
+            padding: 20px;
+            border:solid 5px black;
+            margin:30px;
+            width: 100px;
+            top: 150px; /*distancia do topo da pagina a font*/
+        }
+
+        /*Unidades Relativas:
+        1-Vh = altura total da viewport
+        2-Vw = largura total da viewport
+         */
+
+        .unidades-relativas
+        {
+            position: absolute;
+            font-size: 4em;
+            padding:5%;
+            border:solid 1vw #222222;
+        }
     </style>
 </head>
 

@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <title>Tamanho Box</title>
     <style>
-        body {
+        body
+        {
             font-size: 45px;
+            margin:0;
         }
+
+        div
+        {
+            background-color: deepskyblue;
+            width: 100%;
+            height: 300px;
+            padding: 100px; /*acabou extrapolando para a lateral devido ao width + padding*/
+            border:solid 20px;
+            box-sizing:border-box; /*Considera da borda pra dentro*/
+            /*box-sizing: content-box; !*Considera apenas o conteudo*!*/
+        }
+
+        /*se quiser colocar box-sizing como atributo padrão
+        *
+        {
+            box-sizing:border-box;
+        }
+         */
     </style>
 </head>
 <body>
