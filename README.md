@@ -53,10 +53,45 @@ The Javascript programming language revolves around functions, which is why this
 |     [IIFE Function]    |     [Call Apply]    |     |  |
 <br>
 
+# Object
+
+The Javascript programming language revolves around functions, which is why this topic is dedicated only to them.
+
+|      -     |   -  | - |    -   |
+|:-------------------:|:-----------------:|:-----------------:|:--------------:|
+|      [Object Orientation]      |   [Object Review]  | [Literal Notation] |    [GetSetter]    |
+| [Objects Functions] | [Class in Js]|      [JsonVsObject]      | [Object Create]         |
+<br>
+
+# Array
+
+In this topic I put some methods of how to modify Arrays in Javascript, being of great importance the knowledge in handling them
+
+|      -     |   -  | - |    -   |
+|:-------------------:|:-----------------:|:-----------------:|:--------------:|
+|      [Array overview]      |   [Important Methods]  | [ForEach] |    [Filter]    |
+| [Reduce] | [ImperativeVsDeclarative]|      [Concat&FlatMap]      |          |
+<br>
+
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    
+   [Array overview]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/01.Array.js>
+   [Important Methods]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/02.MetodosImportantes.js>
+   [ForEach]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/03.ForEach.js>
+   [Filter]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/05.Filter.js>
+   [Reduce]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/06.Reduce.js>
+   [ImperativeVsDeclarative]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/10.ImperativoVsDeclarativo.js>
+   [Concat&FlatMap]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Array/09.Concat%26FlatMap.js>
+   [Object Orientation]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/01.OO.js>
+   [Object Review]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/02.ObjetoRevisao.js>
+   [Literal Notation]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/04.Nota%C3%A7%C3%A3oLiteral.js>
+   [GetSetter]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/05.GettSetter.js>
+   [Objects Functions]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/06.FuncoesImportantes.js>
+   [Class in Js]:,https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/10.Class.js>
+   [JsonVsObject]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/11.JSONvsObject.js>
+   [Object Create]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Objeto/08.ObjectCreate.js>
    [Call Apply]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Fun%C3%A7%C3%A3o/14.CallAply.js>
    [IIFE Function]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Fun%C3%A7%C3%A3o/13.FuncaoIIFE.js>
    [Class X Factory]:<https://github.com/VictorMarques98/JS-Annotations/blob/master/Fun%C3%A7%C3%A3o/12.ClasseXfactoryXconstrutora.js>
