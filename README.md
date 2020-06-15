@@ -35,7 +35,6 @@ This topic covers an introduction to programming in general such as algorithms, 
 # Controls Structure
 In this topic, the control structures most used in the programming language in general will be addressed.
 
-
 |      -     |   -  | - |    -   |
 |:-------------------:|:-----------------:|:-----------------:|:--------------:|
 |      [IF]      |   [Else If]  | [Switch] |    [While]    |
