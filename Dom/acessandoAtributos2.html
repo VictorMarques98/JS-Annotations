@@ -17,7 +17,26 @@
         </ul>
     </div>
     <script>
-        
+
+        const lista = document.querySelector('#compras')
+
+        console.log('Elemento ul......')
+        console.log('childNodes',lista.childNodes)
+        console.log('children',lista.children)
+        console.log('destino',lista.destino) //undefined
+
+        console.log('getAttribute',lista.getAttribute('destino')) //Pegar atributo
+        console.log('hasAttribute',lista.hasAttribute('destino')) //Saber se tem atributo
+        lista.setAttribute('destino','empresa')//setar atributo
+        lista.setAttribute('status','aberto') //Add atributo
+        lista.removeAttribute('destino') //Remover atributo
+
+        //Cuidado....
+        const label = document.querySelector('label')
+        console.log(label.for)//undefined
+        console.log(label.htmlFor) //Maneira correta de acessar o for do label
+        console.log(label.getAttribute('for')) //Outra maneira tbm
+
     </script>
 </body>
 

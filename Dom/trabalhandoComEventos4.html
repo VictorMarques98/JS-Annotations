@@ -31,6 +31,22 @@
         <button wm-submit>Pesquisar</button>
     </form>
     <script>
-        // ...
+        const submit = document.querySelector('[wm-submit]')
+        submit.onclick = function(e)
+        {
+            e.preventDefault()
+
+            const form = e.target.parentNode
+            const formData = new FormData(form)
+            formData.append('ajax',true) //Add nova info no form
+            console.log(formData.get('q'))
+            console.log(formData.has('hl'))
+
+            //Imprimir dados
+            for(let dado of forData) //colocar let, para n tornar dado global
+            {
+                console.log(dado)
+            }
+        }
     </script>
 </body>

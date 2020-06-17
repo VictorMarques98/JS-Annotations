@@ -9,9 +9,27 @@
 
 <body class="conteudo exercicio">
     <div>
-        <a href="https://google.com.br">Google</a>
+        <a esperar-5s href="https://google.com.br">Google</a>
     </div>
     <script>
-        // ...
+
+        //É necessário chamar o 'event' no onclick, no caso, o evento é o click
+        function navegarem5s(e)
+        {
+            e.preventDefault()
+            console.log('saindo em 5s...')
+            setTimeout(() =>
+            {
+                const link = e.target
+                window.location.href = link.href
+                //window.location.href = url atual
+            },5000)
+        }
+
+        //Usar um atibuto personalizado é melhor
+        //Classe é recomandada para visual
+        const a = document.querySelector('[esperar-5s]')
+        a.onclick = navegarem5s
+
     </script>
 </body>

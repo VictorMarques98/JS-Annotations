@@ -1,6 +1,5 @@
-</html>
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
     <meta charset='UTF-8'>
@@ -45,7 +44,30 @@
     </div>
     <div class="direita" wm-dropzone></div>
     <script>
-        // ...
+
+        //Drag Drop
+        const items = document.querySelectorAll('.item')
+        items.forEach((item,index) =>
+        {
+            item.draggable = true
+            item.id = item.id || `draggable-item-${index}` //Se n tiver ID, ele adiciona um
+            item.ondragstart = e => //OndragStart = começar a arrastar o elemento
+            {
+                e.dataTransfer.setData('item-id',e.target.id)
+            }
+        })
+
+        const dropzones = document.querySelectorAll('[wm-dropzone]')
+        dropzones.forEach(dropzone =>
+        {
+            dropzone.ondragover = e =>  e.preventDefault()
+            dropzone.ondrop = function(e)
+            {
+                const id = e.dataTransfer.getData('item-id')
+                const item = document.getElementById(id)
+                e.target.appendChild(item) //No momento em que item vira filho de outro elemento, ele deixa de pertencer ao outro elem.
+            }
+        })
     </script>
 </body>
 
