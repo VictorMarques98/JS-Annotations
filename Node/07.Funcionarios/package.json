@@ -23,6 +23,6 @@
     "Para achar os scripts padrões do NPM,basta ir no site deles"
   ],
   "devDependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
